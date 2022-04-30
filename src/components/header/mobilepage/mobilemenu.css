@@ -1,0 +1,25 @@
+
+.mobile{
+    position: absolute;
+    height: 100vh;
+    width: 60vh;
+    /* background-color: rgb(245, 13, 13); */
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+.closeicon{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+
+}
+.mobilemenu{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 24px;
+    justify-content: center;
+    height: 100%;
+}

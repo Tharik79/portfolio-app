@@ -1,0 +1,60 @@
+
+.contact-left{
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+}
+
+.form-group{
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+label{
+    font-size: 25px;
+}
+input, textarea{
+    width: 100%;
+    font-size: 32px;
+    padding: 18px;
+    color: grey;
+    background-color: black;border-radius: 8px;
+    margin-top: 16px;
+}
+
+textarea{
+    min-height: 250px;
+    resize: vertical;
+}
+.btn{
+    display: inline-block;
+    color: black;
+    background-color: rgb(175, 8, 8);
+    font-size: 30px;
+    padding: 16px 64px;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    gap: 80px;
+    margin-top: 120px;
+}
+.contact-left{
+    width: 100%;
+    max-width: 500%;
+}
+.contact-right{
+    max-width: 500%;
+    width: 100%;
+}
+@media (max-width: 768px){
+    .contact-section{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,30 @@
+
+.icon{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    
+}
+.image-contain{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+.data{
+    display: flex;
+    flex-direction: row;
+}
+.sk-cards{
+    width: 100%;
+    text-align: center;
+    margin-left: 10%;
+    
+}
+.sk-cards > .card{
+    display: inline-block;
+    justify-content: center;
+}
+.card{
+    height: 150px;
+    width: 150px;
+}

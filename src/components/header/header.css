@@ -1,0 +1,45 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 12px;
+    background-color: rgb(88, 49, 161);
+    flex: 1;
+    position: relative;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.logo{
+    display: flex;
+    font-size: 50px;
+    color: rgb(238, 75, 203);
+    font-weight: 800;
+}
+.mobile-menu{
+    font-size: 20px;
+    display: none;
+
+}
+.web-menu{
+    display: flex;
+}
+
+@media only screen and (max-width: 720px) {
+    .web-menu{
+        display: none;
+    }
+    .mobile-menu{
+        display: flex;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    
+}

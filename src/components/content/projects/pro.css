@@ -1,0 +1,32 @@
+
+.card{
+   color: blue;
+    margin-left: 30px;
+    box-shadow: 0px 1 px 8px 0px white;
+    height: 250px;
+    width: 300px;
+    
+}
+.card-image{
+    height: 150px;
+    width: 180px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.project-cards{
+    width: 100%;
+    text-align: center;
+    margin-left: 10%;
+    
+}
+.project-cards > .card{
+    display: inline-block;
+    justify-content: space-between;
+      
+
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+}
