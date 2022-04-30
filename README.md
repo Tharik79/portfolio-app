@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 My Portfolio-app
 https://dapper-hotteok-8c1350.netlify.app/
+https://github.com/Tharik79/portfolio-app.git
 
 apps used:
 ReactJS
