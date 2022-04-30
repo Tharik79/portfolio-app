@@ -1,4 +1,4 @@
-import React, {useState, useRef} from "react";
+import React, { useRef} from "react";
 import './contactForm.css';
 import emailjs from '@emailjs/browser';
 
@@ -8,9 +8,7 @@ import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
 
-    // const [name, setName] = useState('');
-    // const [email, setEmail] = useState('');
-    // const [message, setMessage] = useState('');
+  
 
     const form = useRef();
 
