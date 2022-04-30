@@ -1,4 +1,15 @@
 # Getting Started with Create React App
+My Portfolio-app
+https://dapper-hotteok-8c1350.netlify.app/
+
+apps used:
+ReactJS
+icons8
+react-bootstrap
+Bootstrap
+devicon
+flaticon
+emailJs
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
