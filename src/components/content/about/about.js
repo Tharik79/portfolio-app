@@ -23,7 +23,7 @@ const About = () => {
           </Col>
           <Col>
             <Card style={{ width: "18 rem" }} className="card">
-              <Card.Img  src={require("../../../assets/tharik.png") } className="picture" width="200" height="300"/>
+              <Card.Img  src={require("../../../assets/tharik new photo.jpg") } className="picture" width="200" height="300"/>
               
             </Card>
             
